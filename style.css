@@ -1,32 +1,11 @@
 body {
-  background: radial-gradient(circle, #ff4f8b, #9b1d4a);
+  background: radial-gradient(circle, #ff7eb3, #ff4f8b);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Georgia', serif;
 }
 
-.card {
-  background: #f7e9df;
-  padding: 20px;
-  border-radius: 20px;
-  width: 360px;
-  text-align: center;
-  box-shadow: 0 15px 40px rgba(0,0,0,.3);
+canvas {
+  background: transparent;
 }
-
-h2 {
-  color: #7a2d2d;
-}
-
-.mensaje {
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.hint {
-  font-size: 12px;
-  opacity: .7;
-}
-
